@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon - Generic -->
+    <link rel="icon" href="images/1.jpeg" type="image/jpeg">
+    <!-- Favicon - Chrome/Android -->
+    <link rel="shortcut icon" href="images/1.jpeg" type="image/jpeg">
+    <!-- Favicon - Safari/iOS -->
+    <link rel="apple-touch-icon" href="images/1.jpeg">
+
+    <meta property="og:title" content="my art" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content=" Oil painter / Artist / Digital Content Creator - Posts with images of my art; occasionally featuring my thoughts" />
+    <meta name="author" content="Hakdog">
+
+    <title>Jeshfyne</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+      href='https://fonts.googleapis.com/css?family=Roboto'>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5L3E8JK9TV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5L3E8JK9TV');
+    </script>
+  </head>
+  <header>
+    <a href="/" accesskey="h" title="My Art (Alt + H)" class="title">Jeshfyne</a>
+    <label id="switch" class="switch">
+      <input type="checkbox" onchange="toggleTheme()" id="slider">
+      <span class="slider round"></span>
+  </label>
+    <ul class="right">
+      <li><a href="https://instagram.com/jeshfyne/">Instagram</a></li>
+      <li><a href="https://www.facebook.com/ej.manla.7">Facebook</a></li>
+      <li><a href="http://localhost/art5/loginr.html">Log-Out</a></li>
+    </ul>
+  </header>
+  <body>
+    <div class="wrapper">
+      <img src="images/jeshfyne.jpg" style="display:block; margin:auto; width: 200px; height: 200px; border-radius: 50%;"></img>
+      <h1 id="my-art" style="display: inline; font-family: 'Josefin Sans', sans-serif;">
+        My Art</h1>
+      <br>
+      <ul class="links">
+        <li><a href="art">Art</a>
+        </a></li>
+      </ul>
+      <h2>About</h2>
+      <p style="text-indent: 25px;"> Hi there, I’m Jeshfyne! I am a College student who’s passionate about computer science, community service, and bettering the world through technology.
+      </p>
+      <ul id="socials">
+        </a></li>
+        <li><a href="https://instagram.com/jeshfyne/" class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a></li>
+      </ul>
+      <footer>
+        <p>© 2024 By:jeshFyne
+        </p>
+      </footer>
+    </div>
+    <div id="myModal" class="modal" style="text-align:center;">
+      <span class="close">&times;</span>
+      <span class="prev">&#10094;</span>
+      <img class="modal-content" id="img01">
+      <span class="next">&#10095;</span>
+      <div id="caption"></div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>

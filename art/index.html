@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon - Generic -->
+    <link rel="icon" href="images/1.jpeg" type="image/jpeg">
+    <!-- Favicon - Chrome/Android -->
+    <link rel="shortcut icon" href="images/1.jpeg" type="image/jpeg">
+    <!-- Favicon - Safari/iOS -->
+    <link rel="apple-touch-icon" href="images/1.jpeg">
+
+    <meta property="og:title" content="my art " />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Oil painter / Artist - Posts with images of my art; occasionally featuring my thoughts" />
+    <meta property="og:description" content="Paintings, sketches," />
+    <meta property="og:site_name" content="my art" />
+    <meta name="twitter:card" content="Paintings, sketches" />
+    <meta name="keywords" content="artist, art, oil painting, sketches">
+    <meta name="author" content="Hakdog">
+
+    <title>my art</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+      href='https://fonts.googleapis.com/css?family=Roboto'>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5L3E8JK9TV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5L3E8JK9TV');
+    </script>
+  </head>
+  <header>
+    <a href="/" accesskey="h" title="My Art (Alt + H)" class="title">Jeshfyne</a>
+    <label id="switch" class="switch">
+      <input type="checkbox" onchange="toggleTheme()" id="slider">
+      <span class="slider round"></span>
+  </label>
+    <ul class="right">
+      <li><a href="https://instagram.com/jeshfyne/">Instagram</a></li>
+      <li><a href="http://localhost/art5/">Home</a></li>
+    </ul>
+  </header>
+  <body>
+    <div class="wrapper">
+      <ul id="title-list" style="margin-bottom: 0px;">
+        <li><h1 id="my-art" style="display: inline; font-family: 'Josefin Sans', sans-serif;">
+          my art </h1></li>
+      </ul>
+      <p style="display: inline;">
+        Some of the pieces I have made.
+      </p>
+      <h2>Recent</h2>
+      <div class="row">
+        <div class="column">
+          <img id="delicate" class="myImages" src="thumbnails/20.jpg" alt="<i>delicate</i>, 2021, Watercolor and ink on paper" data-src="images/20.jpg" loading="lazy">
+        </div>
+        <div class="column">
+          <img id="in-our-hands" class="myImages" src="thumbnails/0.jpeg" alt="<i>In Our Hands</i>, 2020, Oil on canvas" data-src="images/0.jpeg" loading="lazy">
+        </div>
+        <div class="column">
+          <img id="self-portrait" class="myImages" src="thumbnails/9.jpg" alt="<i>Self-portrait</i>, 2021, Marker, ink, and graphite on paper" data-src="images/9.jpg" loading="lazy">
+        </div>
+        <div class="column">
+          <img id="fruit-basket" class="myImages" src="thumbnails/19.jpg" alt="<i>october fruit basket</i>, 2020, Gouache on paper" data-src="images/19.jpg" loading="lazy">
+        </div>
+      </div>
+      <br>
+
+      <h2>About</h2>
+      <p style="text-indent: 25px;"> I am an artist from Katipunan, who is interested in oil painting, gouache </p>
+      <ul id="socials">
+        <li><a href="https://instagram.com/jeshfyne/" class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a></li>
+      </ul>
+      <p>Coded in HTML, CSS, and Javascript</p>
+      <footer>
+        <p>© 
+        </p>
+      </footer>
+    </div>
+    <div id="myModal" class="modal" style="text-align:center;">
+      <span class="close">&times;</span>
+      <span class="prev">&#10094;</span>
+      <img class="modal-content" id="img01">
+      <span class="next">&#10095;</span>
+      <div id="caption"></div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
